@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Etch-A-Sketch!</title>
+    <meta charset="UTF-8"/>
+    <link href="styles/style.css" rel="stylesheet">
+    <h1 id='h1'>Etch-A-Sketch</h1>
+</head>
+<body>
+    <div id="layout">
+        <div id="lh-button"><span class="reset-text">Reset Canvas</span></div>
+        <div id="rh-button"><span class="rainbow">Show Grid</span></div>
+        <p1>Enter canvas size then click the Reset button</p1>
+        <input id="grid-size-input" type="text" min="16" max="99" maxlength="2" value="16">
+        <input id="slider-red" type="range" min="0" max="255" class="slider">
+        <input id="hue-number-red" type="text" min="0" max="255" maxlength="3" value="207">
+        <input id="slider-blue" type="range" min="0" max="255" class="slider">
+        <input id="hue-number-blue" type="text" min="0" max="255" maxlength="3" value="219">
+        <input id="slider-green" type="range" min="0" max="255" class="slider">
+        <input id="hue-number-green" type="text" min="0" max="255" maxlength="3" value="213">
+        <div id="canvas"></div>
+    </div>
+<script src="scripts/script.js"></script>
+</body>
+</html>
